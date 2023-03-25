@@ -6,7 +6,7 @@ interface Props {
   apiKey: "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";
   onApiKeyChange: (apiKey: string) => void;
 }
-/**
+
 export const Key: FC<Props> = ({ apiKey, onApiKeyChange }) => {
   const [isChanging, setIsChanging] = useState(false);
   const [newKey, setNewKey] = useState(apiKey);
