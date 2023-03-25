@@ -3,7 +3,7 @@ import { FC, KeyboardEvent, useState } from "react";
 import { SidebarButton } from "./SidebarButton";
 
 interface Props {
-  apiKey: "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";
+  apiKey: string;
   onApiKeyChange: (apiKey: string) => void;
 }
 
